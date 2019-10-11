@@ -1,0 +1,55 @@
+scripts/voc_eval.py:195: RuntimeWarning: invalid value encountered in divide
+  rec = tp / float(npos)
+VOC07 metric? No
+AP for aeroplane = nan
+AP for Cyclist = 0.2801
+AP for bird = nan
+AP for boat = nan
+AP for bottle = nan
+AP for bus = nan
+AP for car = 0.7285
+AP for cat = nan
+AP for chair = nan
+AP for cow = nan
+AP for diningtable = nan
+AP for dog = nan
+AP for horse = nan
+AP for motorbike = nan
+AP for person = 0.4063
+AP for pottedplant = nan
+AP for sheep = nan
+AP for sofa = nan
+AP for train = nan
+AP for tvmonitor = nan
+Mean AP = 0.47
+~~~~~~~~
+Results:
+nan
+0.280
+nan
+nan
+nan
+nan
+0.729
+nan
+nan
+nan
+nan
+nan
+nan
+nan
+0.406
+nan
+nan
+nan
+nan
+nan
+nan
+~~~~~~~~
+
+--------------------------------------------------------------
+Results computed with the **unofficial** Python eval code.
+Results should be very close to the official MATLAB eval code.
+Recompute with `./tools/reval.py --matlab ...` for your paper.
+-- Thanks, The Management
+--------------------------------------------------------------
